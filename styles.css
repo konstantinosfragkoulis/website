@@ -100,6 +100,7 @@ section {
     border-radius: 8px;
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
     background: var(--primary-foreground);
+    align-items: center;
 }
 
 .project img {
