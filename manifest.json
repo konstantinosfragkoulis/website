@@ -1,0 +1,25 @@
+{
+    "short_name": "Konstantinos Fragkoulis Portfolio",
+    "name": "Konstantinos Fragkoulis Portfolio",
+    "icons": [
+      {
+        "src": "favicon.svg",
+        "sizes": "48x48",
+        "type": "image/svg+xml"
+      },
+      {
+        "src": "favicon.svg",
+        "sizes": "72x72 96x96 128x128 256x256",
+        "type": "image/svg+xml"
+      }
+    ],
+    "start_url": "/",
+    "background_color": "#243546",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#2196F3",
+    "orientation": "portrait",
+    "lang": "en-US",
+    "description": "Hi! I'm Konstantinos Fragkoulis, a high school student from greece. This is my portfolio. Here you can see my projects - all the cool stuff I have been working on.",
+    "categories": ["portfolio", "personal", "projects", "Konstantinos Fragkoulis", "student", "high school", "greece", "developer", "web developer", "programmer", "coding", "code", "projects", "portfolio", "Konstantinos Fragkoulis Portfolio", "Konstantinos Fragkoulis Projects", "Konstantinos Fragkoulis Website", "Konstantinos Fragkoulis Webpage", "Konstantinos Fragkoulis Developer", "Konstantinos Fragkoulis Web Developer", "Konstantinos Fragkoulis Programmer", "Konstantinos Fragkoulis Coding", "Konstantinos Fragkoulis Code", "Konstantinos Fragkoulis Projects"]
+  }
