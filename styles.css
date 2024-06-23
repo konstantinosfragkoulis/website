@@ -1,16 +1,17 @@
 :root {
-    --background-color: #2c2c2e;
-    --text-color: #b8b8b8;
-    --primary-color: #0b84ff;
-    --tech-stack-bg-color: #355754;
-    --link-color: #007BFF;
+    --background-color: #243546;
+    --text-color: #DDDDDD;
+    --primary-color: #2196F3;
+    --primary-foreground: #222831;
+    --secondary-color: #F05454;
+    --tech-stack-bg-color: #A3A3A3;
+    --link-color: #FFEB3B;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--background-color);
 }
 
 body {
@@ -22,6 +23,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center; /* Centers the content vertically for flex children */
+    background: var(--background-color);
 }
 
 a {
@@ -33,7 +35,7 @@ header {
     color: var(--primary-color);
     text-align: center;
     padding: 0;
-    padding-top: 30vh;
+    padding-top: 25vh;
     width: 100%;
 }
 
@@ -73,12 +75,20 @@ section {
     flex-direction: column;
 }
 
+#projects h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
 .project {
     display: flex;
     margin-bottom: 1.5rem;
     padding: 1rem;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: var(--primary-foreground);
 }
 
 .project img {
@@ -96,9 +106,13 @@ section {
     margin: 0.5rem 0;
 }
 
-.tech-stack span {
+.tech-stack {
+    margin: 0.5rem 0;
+}
+
+.tech-stack .bordered {
     display: inline-block;
-    background: var(--tech-stack-bg-color);
+    border: 2px solid var(--secondary-color);
     margin-right: 0.5rem;
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
@@ -109,8 +123,26 @@ section {
     display: inline-block;
     margin-right: 1rem;
     color: var(--links-color);
+    border-radius: 4px;
     text-decoration: none;
     font-weight: bold;
+    -moz-appearance: button;
+    -ms-appearance: button;
+    -o-appearance: button;
+    -webkit-appearance: button;
+    appearance: button;
+    text-decoration: none;
+    padding: 0.2em 0.4em;
+}
+
+.links .primary {
+    background: var(--primary-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.links .secondary {
+    padding: 0.2em 0.4em;
+    box-shadow: 0 2px 4px rgba(128, 128, 128, 0.1);
 }
 
 footer {
