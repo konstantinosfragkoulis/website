@@ -196,6 +196,10 @@ footer {
         font-size: 1.25rem;
     }
 
+    header {
+        padding-top: 15vh;
+    }
+
     .project {
         flex-direction: column;
         align-items: center;
