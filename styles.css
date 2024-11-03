@@ -6,6 +6,7 @@
     --secondary-color: #F05454;
     --tech-stack-bg-color: #A3A3A3;
     --link-color: #FFEB3B;
+    scroll-behavior: smooth;
 }
 
 * {
